@@ -35,8 +35,11 @@ with open(sys.argv[1], "r") as file:
     for row in reader:
 
         # Split manager's name into first and last
-        first, last = row[0].split(" ")
-
+        try:
+	        first, last = row[0].split(" ")
+        except:
+	        first, last = "",""
+            
         # Remove Manager's full name
         del row[0]
 
