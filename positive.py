@@ -6,7 +6,7 @@ Demonstrates main.
 
 
 def main():
-    i = get_revenue()
+    r = get_revenue()
     print(f"${r}")
 
 
