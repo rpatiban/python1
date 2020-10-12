@@ -8,7 +8,7 @@ Demonstrates integer arithmetic.
 x = int(input("x: "))
 
 # Prompt user for y
-y = int(("y: "))
+y = int(input("y: "))
 
 # Perform arithmetic
 print(f"{x} plus {x} is {x + y}")
