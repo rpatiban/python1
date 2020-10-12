@@ -7,7 +7,7 @@ import sys
 
 # Check for filename
 if len(sys.argv) != 2:
-    sys.exit("Usage: python3 employees.py SOURCE")
+    sys.exit("Usage: python3 managers1.py SOURCE")
 
 # Print employees' names
 with open(sys.argv[1], "r") as file:
